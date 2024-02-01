@@ -39,10 +39,19 @@
   </head>
   <body>
     <header id="header">
-      <h2>GUILHERME</h2>
+      <a href="#" class="link-name"><h2>GUILHERME</h2></a>
       <nav class="nav">
-        <a href="">Sobre Mim</a>
-        <a href="">Projetos</a>
+        <a href="https://github.com/GuilhermeCustodioNieto" class="link-header"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/guilherme-cust%C3%B3dio-nieto/"
+          class="link-header"
+          >Linkedin</a
+        >
+        <a href="mailto:guilhermecustodionieto@gmail.com" class="link-header"
+          >Email</a
+        >
       </nav>
     </header>
     <main>
@@ -64,149 +73,238 @@
         </div>
 
         <div class="projects">
-          <div class="carousel">
-            <div class="buttons-next">
-              <button class="next-left next" onclick="nextLeft()"><img src="./assets/img/Next.png" alt=""></button>
-              <button class="next-right next" onclick="nextRight()" ><img src="./assets/img/Next.png" alt=""></button>
-            </div>
+          <!-- <div class="project-card">
+            <img
+              class="project-image"
+              src="./assets/img/Rectangle.png"
+              alt="A image of Project"
+            />
+            <div class="project-details">
+              <div class="details">
+                <p class="details-p">11/09/2007 - 30/01/2024</p>
+                <p class="details-p">Back-End developer</p>
 
-
-            <div class="carousel__item">
-              <div class="project-card">
-                <img
-                  class="project-image"
-                  src="./assets/img/Rectangle.png"
-                  alt="A image of Project"
-                />
-                <div class="project-details">
-                  <div class="details">
-                    <p class="details-p">11/09/2007 - 30/01/2024</p>
-                    <p class="details-p">Back-End developer</p>
-
-                    <div class="project-links">
-                      <p id="links-text">Links:</p>
-                      <div class="links">
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />GitHub</a
-                        >
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />Example</a
-                        >
-                      </div>
-                    </div>
+                <div class="project-links">
+                  <p id="links-text">Links:</p>
+                  <div class="links">
+                    <a href="">
+                      <img
+                        class="link-icon"
+                        src="./assets/img/Link-Icon.png"
+                        alt="A icon of links"
+                      />GitHub</a
+                    >
+                    <a href="">
+                      <img
+                        class="link-icon"
+                        src="./assets/img/Link-Icon.png"
+                        alt="A icon of links"
+                      />Example</a
+                    >
                   </div>
-                  <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Explicabo facilis placeat magni quidem sapiente quibusdam
-                    tempora minus voluptatem molestias commodi. Earum cum maxime
-                    culpa tempora voluptas fuga, natus at eligendi.
-                  </p>
                 </div>
               </div>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Explicabo facilis placeat magni quidem sapiente quibusdam
+                tempora minus voluptatem molestias commodi. Earum cum maxime
+                culpa tempora voluptas fuga, natus at eligendi.
+              </p>
             </div>
-            <div class="carousel__item">
-              <div class="project-card">
-                <img
-                  class="project-image"
-                  src="./assets/img/Rectangle.png"
-                  alt="A image of Project"
-                />
-                <div class="project-details">
-                  <div class="details">
-                    <p class="details-p">11/09/2007 - 30/01/2024</p>
-                    <p class="details-p">Back-End developer</p>
+          </div> -->
 
-                    <div class="project-links">
-                      <p id="links-text">Links:</p>
-                      <div class="links">
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />GitHub</a
-                        >
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />Example</a
-                        >
+          <div id="carouselExampleFade" class="carousel">
+            <div class="carousel-indicators indicadores">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#" class="project-link">
+                  <div class="project-card">
+                    <img
+                      class="project-image"
+                      src="./assets/img/Rectangle.png"
+                      alt="A image of Project"
+                    />
+                    <div class="project-details">
+                      <div class="details">
+                        <p class="details-p">11/09/2007 - 30/01/2024</p>
+                        <p class="details-p">Back-End developer</p>
+
+                        <div class="project-links">
+                          <p id="links-text">Links:</p>
+                          <div class="links">
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />GitHub</a
+                            >
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />Example</a
+                            >
+                          </div>
+                        </div>
                       </div>
+                      <p class="description">sldide 1</p>
                     </div>
                   </div>
-                  <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Explicabo facilis placeat magni quidem sapiente quibusdam
-                    tempora minus voluptatem molestias commodi. Earum cum maxime
-                    culpa tempora voluptas fuga, natus at eligendi.
-                  </p>
-                </div>
+                </a>
               </div>
-            </div>
-            <div class="carousel__item">
-              <div class="project-card">
-                <img
-                  class="project-image"
-                  src="./assets/img/Rectangle.png"
-                  alt="A image of Project"
-                />
-                <div class="project-details">
-                  <div class="details">
-                    <p class="details-p">11/09/2007 - 30/01/2024</p>
-                    <p class="details-p">Back-End developer</p>
+              <div class="carousel-item">
+                <a href="#" class="project-link">
+                  <div class="project-card">
+                    <img
+                      class="project-image"
+                      src="./assets/img/Rectangle.png"
+                      alt="A image of Project"
+                    />
+                    <div class="project-details">
+                      <div class="details">
+                        <p class="details-p">11/09/2007 - 30/01/2024</p>
+                        <p class="details-p">Back-End developer</p>
 
-                    <div class="project-links">
-                      <p id="links-text">Links:</p>
-                      <div class="links">
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />GitHub</a
-                        >
-                        <a href="">
-                          <img
-                            class="link-icon"
-                            src="./assets/img/Link-Icon.png"
-                            alt="A icon of links"
-                          />Example</a
-                        >
+                        <div class="project-links">
+                          <p id="links-text">Links:</p>
+                          <div class="links">
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />GitHub</a
+                            >
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />Example</a
+                            >
+                          </div>
+                        </div>
                       </div>
+                      <p class="description">Sldide 2</p>
                     </div>
                   </div>
-                  <p class="description">
-                    a ipsum dolor sit amet, consectetur adipisicing elit.
-                    Explicabo facilis placeat magni quidem sapiente quibusdam
-                    tempora minus voluptatem molestias commodi. Earum cum maxime
-                    culpa tempora voluptas fuga, natus at eligendi.
-                  </p>
-                </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" class="project-link">
+                  <div class="project-card">
+                    <img
+                      class="project-image"
+                      src="./assets/img/Rectangle.png"
+                      alt="A image of Project"
+                    />
+                    <div class="project-details">
+                      <div class="details">
+                        <p class="details-p">11/09/2007 - 30/01/2024</p>
+                        <p class="details-p">Back-End developer</p>
+
+                        <div class="project-links">
+                          <p id="links-text">Links:</p>
+                          <div class="links">
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />GitHub</a
+                            >
+                            <a href="">
+                              <img
+                                class="link-icon"
+                                src="./assets/img/Link-Icon.png"
+                                alt="A icon of links"
+                              />Example</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <p class="description">Slide 3</p>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+            <button
+              class="carousel-control-prev position-fixed"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next btn-next position-fixed"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <a href="mailto:guilhermecustodionieto@gmail.com" class="mail">
-        <img src="./assets/img/Email.png" alt="a link for my email" />
+    
+    <footer class="contact footer">
+      <a href="mailto:guilhermecustodionieto@gmail.com" class="mail contact">
+        <div class="contact">
+          <img src="./assets/img/Email.png" alt="a link for my email" />
+        </div>
       </a>
-      <a href="www.linkedin.com/in/guilherme-custódio-nieto" class="linkedin">
-        <img src="./assets/img/Linkedin.png" alt="A link for my Linkedin" />
+
+      <a
+        href="https://www.linkedin.com/in/guilherme-cust%C3%B3dio-nieto/"
+        class="linkedin contact"
+      >
+        <div class="contact">
+          <img src="./assets/img/Linkedin.png" alt="A link for my Linkedin" />
+        </div>
       </a>
-      <a href="https://github.com/GuilhermeCustodioNieto" class="github">
-        <img src="./assets/img/GitHub.png" alt="A link for my GitHub" />
+
+      <a
+        href="https://github.com/GuilhermeCustodioNieto"
+        class="github contact"
+      >
+        <div class="contact">
+          <img src="./assets/img/GitHub.png" alt="A link for my GitHub" />
+        </div>
       </a>
     </footer>
 

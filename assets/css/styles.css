@@ -22,12 +22,21 @@
     font-weight: bold;
     color: #fff;
 }
+#header .link-name{
+    text-decoration: none;
+}
 
 .nav a{
     color: #fff;
     font-weight: bold;
     font-size: 1.042vw;
     margin: 0.521vw;
+
+    transition: font-size 0.2s;
+}
+
+.link-header:hover {
+    font-size: 1.2vw;
 }
 
 /* About Me section */
@@ -75,6 +84,7 @@
 .projects{
     background-color: #000;
     width: 100vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,11 +99,14 @@
     align-items: center;
     width: 70vw;
     border-radius: 31.25%;
+    transition: width 1s, padding 1s;
 }
 
 .project-card:hover {
     background: #1b1b1b;
     border-radius: 7px;
+    width: 80vw;
+    padding: 1.5vw;
 }
 
 .project-image{
@@ -148,67 +161,14 @@
 .links a{
     font-size: 0.833vw;
     color: #fff7ff;
+    transition: color 0.2s, font-size 0.11s;
+}
+
+.links a:hover{
+    color: #4a4dfa;
+    font-size: 0.9vw;
 }
 /* carousel */
-
-.project-li {
-    object-fit: cover;
-    height: 25vh;
-    width: 7.292vw;
-    border-radius: 63%;
-}
-
-.li-active {
-    height: 27vh;
-    width: 8.333vw;
-}
-
-.carousel {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-  }
-  
-  .carousel__item {
-    background: #000;
-    padding: 1em;
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-    color: #ffffff;
-    display: none;
-  }
-  
-  .carousel__item--selected {
-    display: block;
-  }
-  
-  .carousel__nav {
-    width: 100%;
-    padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-  }
-  
-  .carousel__button {
-    width: 0.521vw;
-    height: 1vh;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .carousel__button--selected {
-    background: rgba(255, 255, 255, 0.5);
-  }
-  
 .buttons-next {
     width: 100vw;
     display: flex;
@@ -219,4 +179,14 @@
 .next {
     border: none;
     background: none;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
