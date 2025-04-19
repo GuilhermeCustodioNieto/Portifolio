@@ -1,0 +1,18 @@
+.icons_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons_bar img {
+    width: 3vw;
+    margin: 0.5vw;
+    transition: 0.5s;
+}
+
+.icons_bar img:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}

@@ -1,0 +1,37 @@
+{
+    "icons": [
+      {
+        "src": "/icons/java-logo.png",
+        "alt": "Java Logo"
+      },
+      {
+        "src": "/icons/js-logo.png",
+        "alt": "JavaScript Logo"
+      },
+      {
+        "src": "/icons/ts-logo.png",
+        "alt": "TypeScript Logo"
+      },
+      {
+        "src": "/icons/sql-logo.png",
+        "alt": "SQL Logo"
+      },
+      {
+        "src": "/icons/react-logo.png",
+        "alt": "React Logo"
+      },
+      {
+        "src": "/icons/python-logo.png",
+        "alt": "Python Logo"
+      },
+      {
+        "src": "/icons/spring-boot-logo.png",
+        "alt": "Spring-Boot Logo"
+      },
+      {
+        "src": "/icons/nest-logo.png",
+        "alt": "Nest Logo"
+      }
+    ]
+  }
+  
