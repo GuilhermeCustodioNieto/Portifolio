@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 3.542vw; 
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    margin-left: 3.333vw; 
+}
+
+.logo img {
+    width: 2.917vw; /* 3.5rem = 56px → (56/1920)*100 */
+    height: auto;
+    transition: 1s;
+}
+
+.logo img:hover {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.667vw; 
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 0.9vw; 
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color: #E3E3E3;
+    transition: 0.5s;
+    font-size: 1vw; 
+}
