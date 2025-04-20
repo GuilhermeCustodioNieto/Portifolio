@@ -4,6 +4,8 @@ import icons from "../../services/Icons.json";
 import styled from "styled-components";
 
 function IconsBar({ start, finish, imgSize }) {
+  if (finish == undefined) finish = icons.icons.length;
+
   const limitedIcons = icons.icons.slice(start, finish);
 
   const Img = styled.img`
@@ -15,7 +17,7 @@ function IconsBar({ start, finish, imgSize }) {
   return (
     <div className={styles.icons_bar}>
       {limitedIcons.map((icon, index) => (
-        <img key={index} src={icon.src} alt={icon.alt} />
+        <Img key={index} src={icon.src} alt={icon.alt} />
       ))}
     </div>
   );

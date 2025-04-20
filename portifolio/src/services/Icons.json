@@ -31,6 +31,38 @@
       {
         "src": "/icons/nest-logo.png",
         "alt": "Nest Logo"
+      },
+      {
+        "src": "/icons/figma-logo.png",
+        "alt": "Figma Logo"
+      },
+      {
+        "src": "/icons/git-logo.png",
+        "alt": "Git Logo"
+      },
+      {
+        "src": "/icons/css-logo.png",
+        "alt": "CSS Logo"
+      },
+      {
+        "src": "/icons/html-logo.png",
+        "alt": "HTML Logo"
+      },
+      {
+        "src": "/icons/bootstrap-logo.png",
+        "alt": "Bootstrap Logo"
+      },
+      {
+        "src": "/icons/node-js-logo.png",
+        "alt": "NodeJS Logo"
+      },
+      {
+        "src": "/icons/junit-logo.png",
+        "alt": "JUnit Logo"
+      },
+      {
+        "src": "/icons/express-logo.png",
+        "alt": "Express Logo"
       }
     ]
   }
