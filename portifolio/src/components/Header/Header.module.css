@@ -5,6 +5,13 @@
     align-items: center;
     width: 100vw;
     height: 3.542vw; 
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background-color: #0f0f0fa8;
+
 }
 
 .logo {
