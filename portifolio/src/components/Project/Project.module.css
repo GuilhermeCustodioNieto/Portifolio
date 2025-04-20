@@ -1,0 +1,42 @@
+.project {
+    width: 60.438vw;
+    height: 40vh;
+    background-color: #1e1e1e5e;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.project_title, .project_description, .project_tecnologies {
+    width: 20.458vw;
+    margin-left: 30px;
+}
+
+.project_title {
+    font-size: 1.5vw;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.project_tecnologies {
+    font-size: 0.8vw;
+    color: #E3E3E3;
+    width: 20.833vw;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.project_description {
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
