@@ -12,11 +12,11 @@ function App() {
     <>
       <Header />
       <div className="content">
-        <section id="banner">
+        <section id="home">
           <Banner text="Guilherme"></Banner>
           <IconsBar start="0" finish="8" imgSize="3vw"></IconsBar>
         </section>
-        <About id="about"></About>
+        <About></About>
         <Skills></Skills>
         <Projects></Projects>
       </div>

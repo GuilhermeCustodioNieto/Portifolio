@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5vw 0px
+    
+    padding-top: 50px;
 }
 
 .skills h2 {

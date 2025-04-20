@@ -5,7 +5,7 @@ import Project from "../Project/Project";
 
 function Projects() {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects} id="projects">
       <h2>Projetos</h2>
 
       {projects.map((project) => {
