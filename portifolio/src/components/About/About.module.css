@@ -1,0 +1,73 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60.354vw;
+    margin-top: 5vw;
+}
+
+
+
+.about_description {
+    width: 50%;
+    height: 27vh;
+    
+}
+
+.about_description p{
+    font-size: 1vw;
+    width: 25vw;
+}
+
+.about_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.my_img {
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.about_subdetails h3 {
+    font-size: 1.2vw;
+    margin: 5px 0px;
+}
+
+.about_subdetails p {
+    font-size: 1vw;
+    color: #E3E3E3;
+    margin: 0px 0px 15px 0px;
+}
+
+.about_subdetails a {
+    font-size: 1.1vw;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.about_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about_icons a img{
+    width: 2.5vw;
+    height: auto;
+    transition: 0.3s;
+}
+
+.about_icons img:hover{
+    width: 2.8vw;
+    height: auto;
+    transition: 0.3s;
+}

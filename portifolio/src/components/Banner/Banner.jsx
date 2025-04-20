@@ -5,7 +5,7 @@ import pcIcon from "../../assets/pc_icon.png";
 
 function Banner({ text }) {
   return (
-    <div className={styles.banner} id="#home">
+    <div className={styles.banner}>
       <div className={styles.container_mini_icon1}>
         <img src={pcIcon} alt="Computer" />
       </div>

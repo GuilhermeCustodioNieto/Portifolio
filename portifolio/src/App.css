@@ -3,7 +3,7 @@ body {
     color: #FFFFFF;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 99%;
     height: 100%;
     font-family: "Martian Mono", monospace;
     font-optical-sizing: auto;
@@ -20,4 +20,12 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

@@ -36,6 +36,7 @@
     color: #fff;
     font-size: 0.9vw; 
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .navbar a:hover {
