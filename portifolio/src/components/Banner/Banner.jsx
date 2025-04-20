@@ -10,7 +10,11 @@ function Banner({ text }) {
         <img src={pcIcon} alt="Computer" />
       </div>
       <div className={styles.banner_text}>
-        <h1>{text}</h1>
+        <div className={styles.banner_title}>
+          <p>{text}</p>
+          <h1>{text}</h1>
+          <p>{text}</p>
+        </div>
 
         <h2>Desenvolvedor Full-Stack</h2>
       </div>
