@@ -3,10 +3,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60.354vw;
-    margin-top: 5vw;
+    
 }
 
+.about_container h2 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #E6E6E6;
+
+}
+
+.about_container {
+    width: 60.354vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .about_description {
