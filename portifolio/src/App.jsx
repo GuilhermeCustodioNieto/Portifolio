@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About/About.jsx";
 import Banner from "./components/Banner/Banner.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import IconsBar from "./components/IconsBar/IconsBar.jsx";
 import Projects from "./components/Projects/Projects.jsx";
@@ -19,6 +20,7 @@ function App() {
         <Skills></Skills>
         <Projects></Projects>
       </div>
+      <Footer></Footer>
     </>
   );
 }
