@@ -41,6 +41,13 @@
     gap: 1rem;
 }
 
+.footer_icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .footer_icons img {
     width: 1.5vw;
 }
