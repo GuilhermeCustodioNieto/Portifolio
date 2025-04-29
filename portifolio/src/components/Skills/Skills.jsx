@@ -7,8 +7,10 @@ function Skills() {
     <div className={styles.skills} id="skills">
       <h2>Habilidades</h2>
 
-      <IconsBar start="0" finish="8" imgSize="3.5vw"></IconsBar>
-      <IconsBar start="8" imgSize="3.5vw"></IconsBar>
+      <div className={styles.skills_icons}>
+        <IconsBar start="0" finish="8" imgSize="3.5vw"></IconsBar>
+        <IconsBar start="8" imgSize="3.5vw"></IconsBar>
+      </div>
     </div>
   );
 }

@@ -13,3 +13,9 @@
     text-transform: uppercase;
     color: #E6E6E6;
 }
+
+@media (max-width: 768px) {
+    .projects h2 {
+        font-size: 8vw;
+    }
+}

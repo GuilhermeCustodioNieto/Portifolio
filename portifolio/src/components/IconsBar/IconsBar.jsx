@@ -12,6 +12,11 @@ function IconsBar({ start, finish, imgSize }) {
     width: ${imgSize};
     margin: 0.5vw;
     transition: 0.5s;
+
+    @media (max-width: 768px) {
+      transform: scale(3);
+      margin: 1vw;
+    }
   `;
 
   return (

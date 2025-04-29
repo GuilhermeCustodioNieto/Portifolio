@@ -40,3 +40,30 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .project {
+        height: 15vh;
+        width: 85.438vw;
+    }
+
+    .project_title {
+        font-size: 4vw;
+    }
+
+    .project_title, .project_description, .project_tecnologies {
+        width: 35.458vw;
+        margin-left: 10px;
+    }
+
+    .project_tecnologies {
+        font-size: 2vw;
+        color: #fff;
+        margin: 5px 0px 0px 10px;
+    }
+
+    .project_description {
+        font-size: 2.2vw;
+        margin-top: 15px;
+    }
+}

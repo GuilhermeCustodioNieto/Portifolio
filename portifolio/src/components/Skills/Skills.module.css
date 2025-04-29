@@ -14,3 +14,13 @@
 
 }
 
+@media (max-width: 768px) {
+    .skills_icons div{
+        margin: 50px 0px;
+    }
+
+    .skills h2 {
+        font-size: 8vw;
+        margin-bottom: -10px;
+    }
+}

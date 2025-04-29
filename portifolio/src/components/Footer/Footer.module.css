@@ -51,3 +51,21 @@
 .footer_icons img {
     width: 1.5vw;
 }
+
+@media (max-width: 768px) {
+    .footer_text img {
+        width: 6vw;
+    }
+
+    .footer_text p {
+        font-size: 2vw;
+    }
+
+    .footer_icons img {
+        width: 4vw;
+    }
+
+    .footer {
+        margin-bottom: 5vw;
+    }
+}

@@ -10,6 +10,11 @@ function Project({ project }) {
     border: 0.1px solid #e6e6e61a;
     background: url(${project.img}) no-repeat center center;
     background-size: cover;
+
+    @media (max-width: 768px) {
+      width: 40.042vw;
+      height: 12vh;
+    }
   `;
 
   return (
