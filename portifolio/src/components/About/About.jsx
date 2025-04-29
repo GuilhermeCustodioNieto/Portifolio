@@ -11,7 +11,10 @@ function About() {
           <div className={styles.about_subdetails}>
             <h3>Guilherme Custódio Nieto</h3>
             <p>Desenvolvedor Full-Stack</p>
-            <a href="">Baixar CV</a>
+            <a href="https://drive.google.com/uc?export=download&id=1OVrz89XZVEcDDlNqDfsrRE5OM2je3dQb">
+              Baixar CV
+            </a>
+
             <div className={styles.about_icons}>
               <a href="https://www.instagram.com/guih_nieto/s">
                 <img src="/icons/instagram-icon.png" alt="Instagram icon" />
