@@ -12,5 +12,13 @@
         "description": "Sistema de e-commerce com carrinho de compras e CRUD de produtos",
         "img": "/projects/e-commerce.png",
         "link": "https://github.com/GuilhermeCustodioNieto/E-commerce-API"
+    },
+    {
+        "title": "API Financeira",
+        "tecnologies": ["Java", "Spring-Boot", "PostgreSQL", "Spring-JPA", "Swagger", "Spring Security", "JWT", "Docker"],
+        "description": "API para controle financeiro pessoal com registro de receitas e despezas, além de ter autenticação e autorização de usuários",
+        "img": "/projects/finance-api.jpg",
+        "link": "https://github.com/GuilhermeCustodioNieto/Finance-API"
+
     }
 ]
