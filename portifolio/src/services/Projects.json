@@ -1,24 +1,49 @@
 [
-    {
-        "title": "GL-Cripto",
-        "tecnologies": ["HTML", "CSS", "JavaScript", "NodeJS", "Express", "MySQL"],
-        "description": "Sistema de simulação de transações entre moedas diversas e criptomoedas",
-        "img": "/projects/gl-cripto.jpg",
-        "link": "https://github.com/GuilhermeCustodioNieto/GL-Crypto"
-    }, 
-    {
-        "title": "E-Commerce",
-        "tecnologies": ["Java", "Spring-Boot", "PostgreSQL", "Postman", "Spring-JPA", "H2 Database"],
-        "description": "Sistema de e-commerce com carrinho de compras e CRUD de produtos",
-        "img": "/projects/e-commerce.png",
-        "link": "https://github.com/GuilhermeCustodioNieto/E-commerce-API"
-    },
-    {
-        "title": "API Financeira",
-        "tecnologies": ["Java", "Spring-Boot", "PostgreSQL", "Spring-JPA", "Swagger", "Spring Security", "JWT", "Docker"],
-        "description": "API para controle financeiro pessoal com registro de receitas e despezas, além de ter autenticação e autorização de usuários",
-        "img": "/projects/finance-api.jpg",
-        "link": "https://github.com/GuilhermeCustodioNieto/Finance-API"
-
-    }
+  {
+    "title": "GL-Crypto",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MySQL"
+    ],
+    "description":
+      "Sistema de simulação de transações entre diferentes moedas e criptomoedas, desenvolvido com integração a uma API de dados.",
+    "img": "/projects/gl-cripto.jpg",
+    "link": "https://github.com/GuilhermeCustodioNieto/GL-Crypto"
+  },
+  {
+    "title": "E-Commerce",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Spring Data JPA",
+      "Postman",
+      "H2 Database"
+    ],
+    "description":
+      "API de e-commerce com gerenciamento de produtos, categorias e carrinho de compras, desenvolvida com Spring Boot e persistência em banco de dados relacional.",
+    "img": "/projects/e-commerce.png",
+    "link": "https://github.com/GuilhermeCustodioNieto/E-commerce-API"
+  },
+  {
+    "title": "API Financeira",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Spring Data JPA",
+      "Spring Security",
+      "JWT",
+      "Swagger",
+      "Docker"
+    ],
+    "description":
+      "API REST para controle financeiro pessoal, com gerenciamento de receitas e despesas, autenticação e autorização de usuários.",
+    "img": "/projects/finance-api.jpg",
+    "link": "https://github.com/GuilhermeCustodioNieto/Finance-API"
+  }
 ]
