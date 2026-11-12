@@ -108,15 +108,16 @@ const experiences = [
 
 const timeline = [
   {
-    year: "2026 - 2028",
-    title: "Bacharelado em Ciência e Tecnologia",
+    year: "2026 - 2029",
+    title: "Bacharelado em Ciência e Tecnologia (BC&T)",
     org: "Universidade Federal do ABC - UFABC",
     bullets: [
-      "Formação interdisciplinar em ciência, tecnologia e matemática, com forte base em raciocínio lógico, modelagem e resolução de problemas.",
-      "Desenvolvimento de visão analítica para compreender problemas complexos sob diferentes perspectivas científicas e tecnológicas.",
-      "Formação acadêmica conciliada com desenvolvimento de software, projetos práticos e aprofundamento contínuo em computação.",
+      "Primeiro bacharelado interdisciplinar da UFABC: base sólida em matemática, física, computação e ciências naturais antes da formação específica.",
+      "Currículo flexível em regime quadrimestral, que permite combinar disciplinas de diferentes áreas e seguir para até três cursos de formação específica.",
+      "Foco em seguir para Ciência da Computação e Neurociência, unindo computação, dados e o estudo do cérebro e da cognição.",
+      "A UFABC lidera o indicador de Internacionalização do Ranking Universitário Folha (RUF 2025 e 2026).",
     ],
-    highlight: false,
+    highlight: true,
   },
   {
     year: "2026",
@@ -300,7 +301,8 @@ function App() {
             <div className="about-text">
               <p>
                 Sou desenvolvedor de software e estudante de Bacharelado em
-                Ciência e Tecnologia na UFABC. Possuo formação técnica em
+                Ciência e Tecnologia na UFABC, com foco em seguir para Ciência da
+                Computação e Neurociência. Possuo formação técnica em
                 Desenvolvimento de Sistemas pela ETEC Cidade Tiradentes e
                 formação Full Stack pelo Instituto PROA em parceria com o Senac.
               </p>
