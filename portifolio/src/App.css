@@ -651,3 +651,42 @@ html {
     gap: 0.25rem;
   }
 }
+
+/* Conquistas */
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.achievement-card {
+  padding: 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.achievement-card strong {
+  display: block;
+  color: var(--accent);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.achievement-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.achievement-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 720px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+}

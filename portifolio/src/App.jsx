@@ -141,6 +141,24 @@ const timeline = [
     highlight: false,
   },
 ];
+const achievements = [
+  {
+    value: "Top 300",
+    title: "Finalista em Olimpíada de Informática",
+    detail: "Classificado entre os 300 melhores de 58.920 participantes.",
+  },
+  {
+    value: "1º lugar",
+    title: "Processo seletivo da ETEC Cidade Tiradentes",
+    detail: "Primeiro colocado entre 350 candidatos.",
+  },
+  {
+    value: "2026",
+    title: "Prêmio Parceiro da Galera – Instituto PROA",
+    detail: "Reconhecimento recebido durante a formação profissional.",
+  },
+];
+
 const projects = [
   {
     featured: true,
@@ -411,6 +429,23 @@ function App() {
                     ))}
                   </ul>
                 </div>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section achievements" id="achievements">
+          <div className="section-heading">
+            <p>Conquistas</p>
+            <h2>Resultados que mostram consistência e dedicação.</h2>
+          </div>
+
+          <div className="achievements-grid">
+            {achievements.map((item) => (
+              <article className="achievement-card" key={item.title}>
+                <strong>{item.value}</strong>
+                <h3>{item.title}</h3>
+                <p>{item.detail}</p>
               </article>
             ))}
           </div>
