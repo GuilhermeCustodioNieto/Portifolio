@@ -108,7 +108,7 @@ const experiences = [
 
 const timeline = [
   {
-    year: "2026 - 2029",
+    year: "2026 - 2028",
     title: "Bacharelado em Ciência e Tecnologia",
     org: "Universidade Federal do ABC - UFABC",
     bullets: [
@@ -121,7 +121,7 @@ const timeline = [
   {
     year: "2026",
     title: "Formação em Desenvolvimento Full Stack",
-    org: "Instituto PROA + Senac",
+    org: "Instituto PROA + Senac Lapa Tito",
     bullets: [
       "Formação prática em desenvolvimento Full Stack, abrangendo construção de interfaces, APIs, bancos de dados e integração de aplicações.",
       "Desenvolvimento de projetos em equipe utilizando metodologias colaborativas, versionamento e boas práticas de desenvolvimento.",
@@ -145,9 +145,10 @@ const projects = [
   {
     featured: true,
     category: "Full Stack · SaaS · E-commerce · Web Builder",
-    title: "Paggie",
+    title: "Somnium (Paggie)",
+    period: "Jan/2025 – Dez/2025",
     description:
-      "Plataforma digital desenvolvida como TCC para micro e pequenos empreendedores. O sistema combina criação visual de sites, marketplace e e-commerce em uma única solução, permitindo que negócios criem e gerenciem sua presença digital.",
+      "Plataforma desenvolvida como TCC para micro e pequenos empreendedores, unindo criação visual de sites, marketplace e e-commerce em uma única solução. Fui responsável técnico pelo backend: autenticação, controle de acesso, operações de e-commerce e personalização dinâmica de sites, integrando diferentes frentes do time.",
     stack:
       "TypeScript · NestJS · Next.js · SQL Server · Docker · AWS · Tailwind CSS · Swagger",
     role: "Tech Lead Backend",
@@ -161,11 +162,12 @@ const projects = [
     links: {},
   },
   {
-    category: "IoT · IA · Backend",
+    category: "IoT · Dashboards · Tempo real",
     title: "Aquamarine",
+    period: "Fev/2026 – Jul/2026",
     description:
-      "Sistema inteligente de monitoramento de água que combina sensores IoT e processamento de dados para identificar possíveis vazamentos. O projeto integra dispositivos físicos, backend e análise automatizada.",
-    stack: "ESP32 · C# · .NET 8 · IoT · IA",
+      "Plataforma de monitoramento de vazamentos que combina sensores e dispositivos conectados com software. Desenvolvi APIs, dashboards e a comunicação em tempo real entre dispositivos e aplicação, transformando dados dos sensores em informação para identificar problemas.",
+    stack: "C# · .NET · React · SQL Server · SignalR · Docker · Swagger · IoT",
     links: {},
   },
   {
@@ -188,10 +190,11 @@ const projects = [
     },
   },
   {
-    category: "Web · Backend · API Integration",
+    category: "Web · Backend · Finanças",
     title: "GL-Crypto",
+    period: "2025",
     description:
-      "Aplicação web voltada à consulta e simulação de transações entre diferentes moedas e criptomoedas. O sistema utiliza integração com API externa para obter dados e processá-los na aplicação.",
+      "Aplicação para gestão de carteiras de criptoativos com suporte a 38 criptomoedas e 21 moedas fiduciárias. Inclui conversão monetária via API externa, controle de saldos, histórico de transações e operações de compra e venda.",
     stack: "HTML · CSS · JavaScript · Node.js · Express · MySQL",
     links: {
       github: "https://github.com/GuilhermeCustodioNieto/GL-Crypto",
@@ -431,7 +434,8 @@ function App() {
                 <div className="project-topline">
                   <span>{project.category}</span>
                   <span>
-                    {project.featured ? "Projeto em destaque" : "Projeto"}
+                    {project.featured ? "Destaque" : "Projeto"}
+                    {project.period && ` · ${project.period}`}
                   </span>
                 </div>
 
