@@ -9,18 +9,32 @@ const socialLinks = {
 
 const skills = [
   {
+    title: "Dados & Análise",
+    description:
+      "Indicadores, dashboards e automação para apoiar decisões de negócio.",
+    items: [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Excel",
+      "KPIs e metas",
+      "Automação de rotinas",
+    ],
+    highlight: true,
+  },
+  {
     title: "Backend & APIs",
     description:
       "APIs, regras de negócio, integração entre serviços e arquitetura de sistemas.",
     items: [
       "Java",
       "Spring Boot",
+      "JPA",
+      "C# / ASP.NET",
       "TypeScript",
       "NestJS",
       "Node.js",
-      "Express",
       "REST APIs",
-      "Swagger",
     ],
   },
   {
@@ -30,33 +44,37 @@ const skills = [
     items: [
       "React",
       "Next.js",
-      "TypeScript",
       "JavaScript",
       "HTML",
       "CSS",
       "Tailwind CSS",
-      "Vite",
+      "Bootstrap",
     ],
   },
   {
-    title: "Databases & Persistence",
+    title: "Bancos de Dados",
     description:
-      "Persistência, modelagem e uso de bancos relacionais e não relacionais.",
+      "Modelagem, consultas e persistência em bancos relacionais e não relacionais.",
+    items: ["PostgreSQL", "SQL Server", "MySQL", "MongoDB"],
+  },
+  {
+    title: "Cloud & Ferramentas",
+    description:
+      "Deploy, containers, armazenamento, versionamento e documentação de APIs.",
+    items: ["AWS S3", "Docker", "Cloudflare", "Git", "GitHub", "Swagger"],
+  },
+  {
+    title: "Práticas & Idiomas",
+    description:
+      "Boas práticas de engenharia para código sustentável e comunicação.",
     items: [
-      "SQL Server",
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "JPA",
-      "Sequelize",
-      "TypeORM",
+      "SOLID",
+      "Clean Code",
+      "Design Patterns",
+      "CI/CD",
+      "Scrum",
+      "Inglês intermediário",
     ],
-  },
-  {
-    title: "Cloud & DevOps",
-    description:
-      "Deploy, containers, versionamento e práticas para entrega contínua.",
-    items: ["AWS", "Docker", "Git", "GitHub", "CI/CD", "Docker Compose"],
   },
 ];
 
@@ -342,13 +360,17 @@ function App() {
           <div className="section-heading">
             <p>Stack & Skills</p>
             <h2>
-              Ferramentas e tecnologias que uso para construir aplicações reais.
+              Do código à análise: as ferramentas que uso para construir e
+              entender.
             </h2>
           </div>
 
           <div className="skills-grid">
             {skills.map((group) => (
-              <article className="skill-card" key={group.title}>
+              <article
+                className={`skill-card${group.highlight ? " is-highlight" : ""}`}
+                key={group.title}
+              >
                 <h3>{group.title}</h3>
                 <p>{group.description}</p>
                 <ul>
