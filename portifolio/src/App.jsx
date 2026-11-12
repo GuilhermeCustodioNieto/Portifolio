@@ -516,9 +516,9 @@ function App() {
             <p>Contato</p>
             <h2>Vamos conversar?</h2>
             <p>
-              Estou buscando oportunidades para continuar evoluindo como
-              desenvolvedor de software e contribuir com equipes que constroem
-              produtos e sistemas reais.
+              Estou buscando um estágio em desenvolvimento de software ou
+              análise de dados para contribuir com equipes que constroem
+              produtos reais e tomam decisões orientadas por dados.
             </p>
           </div>
 
@@ -555,7 +555,7 @@ function App() {
         </div>
         <div>
           <p>© 2026 Guilherme Custódio Nieto</p>
-          <span>Building software. Learning continuously.</span>
+          <span>Construindo software. Aprendendo com dados.</span>
         </div>
       </footer>
     </div>
