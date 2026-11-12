@@ -168,23 +168,23 @@ function App() {
           <a href="#contact">Contato</a>
         </nav>
 
-        <span className="status">Aberto a Oportunidades</span>
+        <span className="status">Aberto a estágio · Tech & Dados</span>
       </header>
 
       <main>
         <section className="hero section" id="home">
           <div className="hero-copy">
             <p className="eyebrow">
-              São Paulo, Brasil · Aberto a Oportunidades
+              São Paulo, Brasil · Buscando estágio em Tecnologia & Dados
             </p>
             <h1>Guilherme Nieto</h1>
-            <h2>Software Developer</h2>
+            <h2>Software & Dados</h2>
             <p className="lead">
-              Desenvolvedor de software com foco em backend e experiência na
-              construção de APIs, aplicações full stack e sistemas integrados.
-              Trabalho principalmente com Java, Spring Boot, TypeScript, NestJS,
-              bancos de dados e AWS, buscando transformar requisitos em sistemas
-              sólidos, escaláveis e bem estruturados.
+              Desenvolvedor backend e full stack, estudante de Ciência e
+              Tecnologia na UFABC e, no dia a dia profissional, acompanhando
+              metas e indicadores com Excel, Power BI e Python. Uno engenharia
+              de software e visão analítica para transformar dados e requisitos
+              em soluções que resolvem problemas de negócio.
             </p>
 
             <div className="cta-row">
@@ -213,8 +213,8 @@ function App() {
               alt="Guilherme Nieto"
             />
             <div className="visual-caption">
-              <span>Software Developer</span>
-              <span>Backend · Cloud · Full Stack</span>
+              <span>Software · Dados</span>
+              <span>Java · SQL · Power BI · Python</span>
             </div>
           </div>
         </section>
@@ -223,7 +223,8 @@ function App() {
           <div className="section-heading">
             <p>Sobre mim</p>
             <h2>
-              Construo sistemas com visão técnica e foco em evolução contínua.
+              Desenvolvo sistemas e uso dados para entender e resolver
+              problemas de negócio.
             </h2>
           </div>
 
@@ -236,12 +237,17 @@ function App() {
                 formação Full Stack pelo Instituto PROA em parceria com o Senac.
               </p>
               <p>
-                Minha experiência prática envolve desenvolvimento backend, APIs
-                REST, bancos de dados, aplicações full stack, integração de
-                serviços e infraestrutura. Entre meus principais projetos estão
-                o Paggie, no qual atuei como Tech Lead Backend, o Aquamarine,
-                voltado a IoT e análise inteligente de dados, e aplicações
-                desenvolvidas com Java, Spring Boot, Node.js e React.
+                Hoje concilio duas frentes. Como Jovem Aprendiz em Trade
+                Marketing na The Magnum, acompanho metas, indicadores e
+                operações comerciais com Excel e Power BI e automatizo rotinas
+                com Python. Como desenvolvedor freelance, sou responsável pelo
+                backend do SAL, um sistema de agendamento de laboratórios em
+                Java, Spring Boot e PostgreSQL.
+              </p>
+              <p>
+                Busco um estágio em tecnologia ou análise de dados onde eu possa
+                contribuir com produtos reais, aprender com o time e unir o lado
+                técnico com a leitura de negócio.
               </p>
               <blockquote>
                 "Construo sistemas, não apenas funcionalidades."
@@ -251,19 +257,19 @@ function App() {
             <div className="metrics">
               <div>
                 <strong>Backend</strong>
-                <span>Foco principal</span>
+                <span>Java, Spring Boot, NestJS e APIs REST</span>
               </div>
               <div>
-                <strong>Cloud</strong>
-                <span>AWS em projeto e infraestrutura</span>
+                <strong>Dados</strong>
+                <span>Excel, Power BI e Python na rotina profissional</span>
               </div>
               <div>
-                <strong>Full Stack</strong>
-                <span>Experiência ponta a ponta</span>
+                <strong>Top 300</strong>
+                <span>Entre 58.920 na Olimpíada de Informática</span>
               </div>
               <div>
                 <strong>Tech Lead</strong>
-                <span>Experiência de liderança no Paggie</span>
+                <span>Backend do Paggie, projeto de TCC</span>
               </div>
             </div>
           </div>
