@@ -479,7 +479,6 @@ html {
 }
 
 @media (max-width: 1024px) {
-  .header,
   .section,
   .footer {
     width: min(100% - 2rem, 1180px);
@@ -491,6 +490,7 @@ html {
   }
 
   .status {
+    justify-self: start;
     border-left: 0;
     padding-left: 0;
   }
@@ -559,9 +559,22 @@ html {
     padding: 1rem;
   }
 
+  .header {
+    gap: 0.6rem;
+  }
+
   .nav {
     justify-content: flex-start;
-    gap: 0.9rem 1.2rem;
+    flex-wrap: nowrap;
+    gap: 1.2rem;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+
+  .status {
+    display: none;
   }
 
   .contact-links a {
