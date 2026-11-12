@@ -4,6 +4,7 @@ const socialLinks = {
   github: "https://github.com/GuilhermeCustodioNieto",
   linkedin: "https://www.linkedin.com/in/guilherme-custodio-nieto/",
   cv: "/Guilherme-Custodio-Nieto-CV.pdf",
+  email: "mailto:guilhermecustodionieto@gmail.com",
 };
 
 const skills = [
@@ -190,7 +191,7 @@ function App() {
               <a className="button button-primary" href="#projects">
                 Ver projetos
               </a>
-              <a className="button button-secondary" href={socialLinks.cv}>
+              <a className="button button-secondary" href={socialLinks.cv} download>
                 Baixar currículo
               </a>
             </div>
@@ -392,8 +393,8 @@ function App() {
           </div>
 
           <div className="contact-links">
-            <a href={socialLinks.github} target="_blank" rel="noreferrer">
-              <span>Gmail</span>
+            <a href={socialLinks.email}>
+              <span>E-mail</span>
               <strong>guilhermecustodionieto@gmail.com</strong>
             </a>
             <a href={socialLinks.github} target="_blank" rel="noreferrer">
@@ -404,7 +405,7 @@ function App() {
               <span>LinkedIn</span>
               <strong>linkedin.com/in/guilherme-custodio-nieto</strong>
             </a>
-            <a href={socialLinks.cv}>
+            <a href={socialLinks.cv} download>
               <span>Currículo</span>
               <strong>Baixar currículo</strong>
             </a>
