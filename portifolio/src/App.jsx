@@ -60,6 +60,34 @@ const skills = [
   },
 ];
 
+const experiences = [
+  {
+    period: "Ago/2026 – Atual",
+    role: "Jovem Aprendiz Administrativo",
+    company: "The Magnum",
+    area: "Trade Marketing · Dados",
+    bullets: [
+      "Acompanhamento de metas, indicadores e operações comerciais por meio de planilhas e análises de dados.",
+      "Uso de Excel e Power BI para organizar informações, acompanhar resultados e identificar tendências e oportunidades de melhoria.",
+      "Desenvolvimento de pequenas automações em Python para reduzir tarefas manuais e tornar rotinas operacionais mais eficientes.",
+    ],
+    tools: ["Excel", "Power BI", "Python", "Indicadores"],
+  },
+  {
+    period: "Ago/2026 – Atual",
+    role: "Desenvolvedor Backend (Freelance)",
+    company: "SAL – Sistema de Agendamento de Laboratórios",
+    area: "Backend · Arquitetura",
+    bullets: [
+      "Responsável pela concepção técnica do backend: decisões de arquitetura, modelagem de domínio e definição das regras de negócio.",
+      "Aplicação de SOLID, Clean Code e Design Patterns para separar responsabilidades e facilitar a evolução do sistema.",
+      "Camada de persistência e integrações com Java, Spring Boot, JPA, PostgreSQL e AWS S3, com Cloudflare e Swagger para infraestrutura e documentação.",
+      "Uso de ferramentas de IA como apoio ao desenvolvimento, sempre com análise e validação para manter a qualidade do código.",
+    ],
+    tools: ["Java", "Spring Boot", "PostgreSQL", "AWS S3", "Swagger"],
+  },
+];
+
 const timeline = [
   {
     year: "2026 - 2029",
@@ -162,6 +190,7 @@ function App() {
 
         <nav className="nav">
           <a href="#about">Sobre</a>
+          <a href="#experience">Experiência</a>
           <a href="#skills">Skills</a>
           <a href="#timeline">Trajetória</a>
           <a href="#projects">Projetos</a>
@@ -272,6 +301,40 @@ function App() {
                 <span>Backend do Paggie, projeto de TCC</span>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="section experience" id="experience">
+          <div className="section-heading">
+            <p>Experiência</p>
+            <h2>
+              Dados na rotina de negócio e backend em um produto real.
+            </h2>
+          </div>
+
+          <div className="experience-list">
+            {experiences.map((job) => (
+              <article className="experience-card" key={job.role}>
+                <div className="experience-head">
+                  <div>
+                    <span className="experience-area">{job.area}</span>
+                    <h3>{job.role}</h3>
+                    <p>{job.company}</p>
+                  </div>
+                  <span className="experience-period">{job.period}</span>
+                </div>
+                <ul>
+                  {job.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+                <div className="tags">
+                  {job.tools.map((tool) => (
+                    <span key={tool}>{tool}</span>
+                  ))}
+                </div>
+              </article>
+            ))}
           </div>
         </section>
 
@@ -423,6 +486,7 @@ function App() {
         <div>Guilherme Nieto</div>
         <div className="footer-nav">
           <a href="#about">Sobre</a>
+          <a href="#experience">Experiência</a>
           <a href="#skills">Skills</a>
           <a href="#timeline">Trajetória</a>
           <a href="#projects">Projetos</a>
